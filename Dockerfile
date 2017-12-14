@@ -1,6 +1,6 @@
 FROM alpine:latest
 
-MAINTAINER yarntime "yanrtime@163.com"
+MAINTAINER yarntime "yarntime@163.com"
 
 RUN apk update && \
 	apk add --no-cache mysql && \
